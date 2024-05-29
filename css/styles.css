@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav {
+  padding: 14px 20px;
+  background-color: #dbdbe4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  font-size: 22px;
+  display: flex;
+  gap: 16px;
+  min-height: 400px;
+  /* justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.menu > li {
+  color: #334;
+  background-color: aliceblue;
+}
+
+.menu > li:hover {
+  text-decoration: underline #ee4c0b 3px;
+}
+
+.button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.button--secondary {
+  background-color: green;
+}
